@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Xamarin.Android.ShadowLib.SampleApp</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,22 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <!--<attr path="/api/package[@name='pl.looksoft.shadowlib']/class[@name='ShadowsInterceptor']"
+        name="visibility">public</attr>-->
+  <add-node path="/api/package[@name='pl.looksoft.shadowlib']">
+    <class abstract="false" deprecated="not deprecated" final="true" name="ShadowsInterceptor" visibility="public"
+            implements="io.github.inflationx.viewpump.Interceptor">
+      <!--<constructor deprecated="not deprecated" final="false"
+                   name="ShadowsInterceptor" static="false" type="pl.looksoft.shadowlib.ShadowsInterceptor"
+                   visibility="public">
+                   <parameter name="context" type="android.content.Context"/>
+                   <parameter name="logger" type="pl.looksoft.shadowlib.ShadowsLogger"/>
+      </constructor>-->
+    </class>
+  </add-node>
+</metadata>
